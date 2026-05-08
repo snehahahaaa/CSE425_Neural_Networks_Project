@@ -162,3 +162,54 @@ Expected Drive path:
 
 text
 MyDrive/CSE425_Project/task4_feedback/human_feedback.csv
+
+## How to Run
+
+This project was developed in *Google Colab*.
+
+### Step 1: Install dependencies
+
+python
+%pip -q install pretty_midi mido tqdm
+
+or locally:
+
+bash
+pip install -r requirements.txt
+
+
+### Step 2: Mount Google Drive
+
+python
+from google.colab import drive
+drive.mount("/content/drive")
+
+
+### Step 3: Prepare Drive folders
+
+For Task 1:
+
+text
+MyDrive/CSE425_Project/task1_midi/classical/
+
+For Task 2 and Task 3:
+
+text
+MyDrive/CSE425_Project/task2_midi/multigenre/
+
+For Task 4:
+
+text
+MyDrive/CSE425_Project/task4_feedback/human_feedback.csv
+
+
+### Step 4: Run notebooks in order
+
+Run the notebooks in this order:
+
+text
+1. Task1_LSTM_Autoencoder.ipynb
+2. Task2_VAE_Music_Generator.ipynb
+3. Task3_Transformer_Music_Generator.ipynb
+4. Task4_RLHF_Preference_Tuning.ipynb
+
