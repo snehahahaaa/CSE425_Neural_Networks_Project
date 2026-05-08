@@ -1,0 +1,7 @@
+pretty_midi
+mido
+tqdm
+numpy
+pandas
+matplotlib
+torch
