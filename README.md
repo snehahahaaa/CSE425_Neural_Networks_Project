@@ -16,38 +16,6 @@ Task 4: RLHF / Human Preference Tuning (Improved generated music using human rat
 All MIDI files used in this project are hosted on Google Drive:
 Link: https://drive.google.com/drive/folders/12kGV4w_9QsiFH2VbmTk53dmsJkOTeghq?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
 
-## Repository Structure
-
-text
-.
-├── README.md
-├── requirements.txt
-│
-├── Task1_LSTM_Autoencoder.ipynb
-├── Task2_VAE_Music_Generator.ipynb
-├── Task3_Transformer_Music_Generator.ipynb
-├── Task4_RLHF_Preference_Tuning.ipynb
-│
-├── task1_outputs/
-│   ├── generated_midis/
-│   ├── plots/
-│   └── results/
-│
-├── task2_outputs/
-│   ├── generated_midis/
-│   ├── plots/
-│   └── results/
-│
-├── task3_outputs/
-│   ├── generated_midis/
-│   ├── plots/
-│   └── results/
-│
-└── task4_outputs/
-    ├── generated_midis/
-    ├── plots/
-    └── results/
-
 ## Files Included
 
 ### Task1_LSTM_Autoencoder.ipynb
@@ -71,9 +39,6 @@ task1_generated_1.mid to task1_generated_5.mid
 task1_reconstruction_loss_curve.png
 task1_metrics.csv
 task1_summary.csv
-
-
----
 
 ### Task2_VAE_Music_Generator.ipynb
 
@@ -125,9 +90,6 @@ task3_metrics.csv
 task3_baseline_comparison.csv
 task3_perplexity_report.csv
 task3_summary.csv
-
-
----
 
 ### Task4_RLHF_Preference_Tuning.ipynb
 
