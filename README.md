@@ -1,1 +1,2 @@
-# CSE425_Neural_Networks_Project
+#Unsupervised Neural Network Architectures for Multi-Genre Music Generation
+
