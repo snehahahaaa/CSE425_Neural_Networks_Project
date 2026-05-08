@@ -12,3 +12,6 @@ Task 3: Transformer Autoregressive Generator (Generated longer MIDI compositions
 
 Task 4: RLHF / Human Preference Tuning (Improved generated music using human ratings and reward-guided tuning)
 
+🎵 MIDI Files
+All MIDI files used in this project are hosted on Google Drive:
+Link: https://drive.google.com/drive/folders/12kGV4w_9QsiFH2VbmTk53dmsJkOTeghq?dmr=1&ec=wgc-drive-%5Bmodule%5D-goto
