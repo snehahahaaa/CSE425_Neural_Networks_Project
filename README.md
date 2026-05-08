@@ -5,7 +5,10 @@ The whole implementation of a neural network-based MIDI music generation is avai
 We have implemented the project in Google Colab using Python, PyTorch, and MIDI processing libraries.
 
 Task 1: LSTM Autoencoder (Generated short classical piano MIDI samples using reconstruction-based learning)
+
 Task 2: LSTM Variational Autoencoder (Improved diversity using latent sampling and KL-divergence)
+
 Task 3: Transformer Autoregressive Generator (Generated longer MIDI compositions using next-token prediction)
+
 Task 4: RLHF / Human Preference Tuning (Improved generated music using human ratings and reward-guided tuning)
 
